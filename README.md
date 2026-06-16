@@ -54,6 +54,12 @@ class AmineManai:
 <!-- ░░░░░░░░░░░░░░░░░░  TECH STACK  ░░░░░░░░░░░░░░░░░░ -->
 ## 🛠️ Tech Stack
 
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=python,pytorch,sklearn,tensorflow,nextjs,react,typescript,nestjs,django,flask,docker,git,postgres,vercel&theme=dark&perline=14)](https://skillicons.dev)
+
+</div>
+
 #### 🤖 Machine Learning & Deep Learning
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -113,10 +119,6 @@ class AmineManai:
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=aminemanai2003&hide_border=true&theme=tokyonight&ring=18c3a8&fire=18c3a8&currStreakLabel=18c3a8" alt="streak"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=aminemanai2003&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10" alt="trophies"/>
 
 </div>
 
