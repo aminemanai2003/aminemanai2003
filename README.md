@@ -5,13 +5,13 @@
 
 <!-- ░░░░░░░░░░░░░░░░░░  HEADER BANNER  ░░░░░░░░░░░░░░░░░░ -->
 <a href="https://amine-ds.vercel.app">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d3a,50:1e64b9,100:18c3a8&height=210&section=header&text=Amine%20Manai&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Data%20Science%20and%20Deep%20Learning%20Engineer&descSize=20&descAlignY=63" alt="Amine Manai"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d3a,50:1e64b9,100:18c3a8&height=210&section=header&text=Amine%20Manai&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Actuarial%20and%20Data%20Science%20Engineer&descSize=20&descAlignY=63" alt="Amine Manai"/>
 </a>
 
 <!-- ░░░░░░░░░░░░░░░░░░  TYPING ANIMATION  ░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=18C3A8&center=true&vCenter=true&width=720&lines=Machine+Learning+%26+Deep+Learning+Engineer;Reproducing+research+papers+%E2%86%92+production+demos;Multi-Agent+AI+%2B+Multimodal+RAG+systems;Future+Actuary+%40+Le+Mans+University+%F0%9F%87%AB%F0%9F%87%B7)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=18C3A8&center=true&vCenter=true&width=720&lines=Actuarial+and+Data+Science+Engineer;Reproducing+research+papers+%E2%86%92+production+demos;Multi-Agent+AI+%2B+Multimodal+RAG+systems;Future+Actuary+%40+Le+Mans+University+%F0%9F%87%AB%F0%9F%87%B7)](https://git.io/typing-svg)
 
 <!-- ░░░░░░░░░░░░░░░░░░  SOCIAL BADGES  ░░░░░░░░░░░░░░░░░░ -->
 <a href="https://amine-ds.vercel.app">
@@ -27,13 +27,40 @@
 
 </div>
 
+<!-- ░░░░░░░░░░░░░░░░░░  ASCII PORTRAIT  ░░░░░░░░░░░░░░░░░░ -->
+```text
+                 .:---::.
+             .=*###%%#####*=:
+            :#%%%%%%%###%%%##*.
+           .*##+===--=--==+*##+
+           =*=--::.......:::-+*-
+           *+-:::..........::-**
+          .*=--:::.........::-=*.
+          :*-======-:::-=====-=*:
+          :*=-==++==-:-==+==--=*:
+          -*--::---=::-------:=*-.
+          -=-:...:-=::--:...::---:
+          ----::--------:::.::-:-.
+          .-----=---------------:.
+            .----==----=--:---.
+             :-----==--::::--.
+             :----::..:::----
+             ---===---===----
+          ...=------------::-   .
+         .  .=-:----:::--::-=     ...
+            =-:::--:::::::=.
+            :-:::::::::::-:
+              ...:::::.....
+                 ...
+```
+
 <!-- ░░░░░░░░░░░░░░░░░░  ABOUT  ░░░░░░░░░░░░░░░░░░ -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
 
 ```python
 class AmineManai:
     def __init__(self):
-        self.role        = "Data Science & Actuarial Engineering Student @ ESPRIT"
+        self.role        = "Actuarial and Data Science Engineer"
         self.next_step   = "M.Sc. Actuarial Science @ Le Mans University 🇫🇷 (Sept 2026)"
         self.focus       = ["Machine Learning", "Deep Learning",
                             "Recommendation Systems", "Multi-Agent AI", "RAG"]
