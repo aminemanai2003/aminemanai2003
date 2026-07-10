@@ -113,12 +113,12 @@ class AmineManai:
 
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aminemanai2003&theme=github_dark" alt="GitHub stats"/>
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aminemanai2003&theme=github_dark&exclude=Linker%20Script" alt="Top languages by repository"/>
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aminemanai2003&theme=vision_friendly_dark&v=20260710a" alt="GitHub stats"/>
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aminemanai2003&theme=vision_friendly_dark&exclude=Linker%20Script&v=20260710a" alt="Top languages by repository"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=aminemanai2003&hide_border=false&background=0D1117&border=30363D&stroke=30363D&ring=2DD4BF&fire=2DD4BF&currStreakNum=C084FC&sideNums=60A5FA&currStreakLabel=F0F6FC&sideLabels=C9D1D9&dates=94A3B8" alt="streak"/>
+<img src="https://streak-stats.demolab.com?user=aminemanai2003&hide_border=false&background=000000&border=30363D&stroke=30363D&ring=FFB000&fire=DC267F&currStreakNum=785EF0&sideNums=648FFF&currStreakLabel=FFB000&sideLabels=FFFFFF&dates=B3B3B3" alt="streak"/>
 
 </div>
 
