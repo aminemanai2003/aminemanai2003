@@ -27,33 +27,6 @@
 
 </div>
 
-<!-- ░░░░░░░░░░░░░░░░░░  ASCII PORTRAIT  ░░░░░░░░░░░░░░░░░░ -->
-```text
-                 .:---::.
-             .=*###%%#####*=:
-            :#%%%%%%%###%%%##*.
-           .*##+===--=--==+*##+
-           =*=--::.......:::-+*-
-           *+-:::..........::-**
-          .*=--:::.........::-=*.
-          :*-======-:::-=====-=*:
-          :*=-==++==-:-==+==--=*:
-          -*--::---=::-------:=*-.
-          -=-:...:-=::--:...::---:
-          ----::--------:::.::-:-.
-          .-----=---------------:.
-            .----==----=--:---.
-             :-----==--::::--.
-             :----::..:::----
-             ---===---===----
-          ...=------------::-   .
-         .  .=-:----:::--::-=     ...
-            =-:::--:::::::=.
-            :-:::::::::::-:
-              ...:::::.....
-                 ...
-```
-
 <!-- ░░░░░░░░░░░░░░░░░░  ABOUT  ░░░░░░░░░░░░░░░░░░ -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
 
@@ -140,8 +113,8 @@ class AmineManai:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=aminemanai2003&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&title_color=18c3a8&icon_color=1e64b9" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminemanai2003&layout=compact&hide_border=true&theme=tokyonight&title_color=18c3a8&langs_count=8" alt="top langs"/>
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aminemanai2003&theme=tokyonight" alt="GitHub stats"/>
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aminemanai2003&theme=tokyonight" alt="Top languages by repository"/>
 
 <br/>
 
