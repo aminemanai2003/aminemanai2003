@@ -113,12 +113,12 @@ class AmineManai:
 
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aminemanai2003&theme=tokyonight" alt="GitHub stats"/>
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aminemanai2003&theme=tokyonight" alt="Top languages by repository"/>
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aminemanai2003&theme=vision_friendly_dark&v=20260710a" alt="GitHub stats"/>
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aminemanai2003&theme=vision_friendly_dark&exclude=Linker%20Script&v=20260710a" alt="Top languages by repository"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=aminemanai2003&hide_border=true&theme=tokyonight&ring=18c3a8&fire=18c3a8&currStreakLabel=18c3a8" alt="streak"/>
+<img src="https://streak-stats.demolab.com?user=aminemanai2003&hide_border=false&background=000000&border=30363D&stroke=30363D&ring=FFB000&fire=DC267F&currStreakNum=785EF0&sideNums=648FFF&currStreakLabel=FFB000&sideLabels=FFFFFF&dates=B3B3B3" alt="streak"/>
 
 </div>
 
