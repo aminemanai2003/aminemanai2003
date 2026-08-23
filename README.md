@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aminemanai2003/aminemanai2003/15c328907c96d425a75360458d3b2f29148ed6d5/assets/profile-banner.svg" width="100%" alt="Amine Manai — M1 Actuarial Science student and ESPRIT Data Science double-degree student" />
+  <img src="https://raw.githubusercontent.com/aminemanai2003/aminemanai2003/ddb1b74134aaae7c090d836f7939086ffe7d9d55/assets/profile-banner.svg" width="100%" alt="Amine Manai — M1 Actuarial Science student and ESPRIT Data Science double-degree student" />
 </p>
 
 <p align="center">
