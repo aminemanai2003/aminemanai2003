@@ -91,8 +91,10 @@ reserving, mortality and model validation before choosing a specialization.
   merged documentation contribution
   **[PR #1196](https://github.com/casact/chainladder-python/pull/1196)**.
 
-## Contribution trail
+## Contribution activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aminemanai2003/aminemanai2003/output/snake.svg" alt="GitHub contribution snake" />
+  <a href="https://github.com/aminemanai2003?tab=overview">
+    <img src="./assets/isometric-contributions.svg" width="100%" alt="Isometric calendar of Amine Manai's public GitHub contributions during the last 12 months" />
+  </a>
 </p>
