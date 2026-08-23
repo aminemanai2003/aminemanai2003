@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Amine Manai — M1 Actuarial Science student and ESPRIT Data Science double-degree student" />
+  <img src="./assets/profile-banner.svg?v=20260823" width="100%" alt="Amine Manai — M1 Actuarial Science student and ESPRIT Data Science double-degree student" />
 </p>
 
 <p align="center">
