@@ -1,6 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description" viewBox="0 0 1000 440">
   <title id="title">aminemanai2003's GitHub contribution activity</title>
   <desc id="description">An isometric calendar showing 552 public contributions across 78 active days from 24 Aug 2025 — 23 Aug 2026.</desc>
+  <defs>
+    <filter id="brightness-60">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="0.6" />
+        <feFuncG type="linear" slope="0.6" />
+        <feFuncB type="linear" slope="0.6" />
+      </feComponentTransfer>
+    </filter>
+    <filter id="brightness-20">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="0.2" />
+        <feFuncG type="linear" slope="0.2" />
+        <feFuncB type="linear" slope="0.2" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .eyebrow { fill: #57606a; font-size: 12px; font-weight: 700; letter-spacing: 1.4px; }
@@ -9,16 +25,17 @@
     .label { fill: #57606a; font-size: 13px; }
     .meta { fill: #57606a; font-size: 12px; }
     .rule { stroke: #d0d7de; }
-    .level-0-top { fill: #eaeef2; stroke: #d0d7de; stroke-width: .55; }
-    .level-1-top { fill: #2f81f7; } .level-1-left { fill: #1f6feb; } .level-1-right { fill: #1958b7; }
-    .level-2-top { fill: #29a3d8; } .level-2-left { fill: #2386b3; } .level-2-right { fill: #196987; }
-    .level-3-top { fill: #2dd4bf; } .level-3-left { fill: #20ad9d; } .level-3-right { fill: #187f74; }
-    .level-4-top { fill: #7eead9; } .level-4-left { fill: #39cdb8; } .level-4-right { fill: #239c8d; }
+    .level-0-top { fill: #ebedf0; stroke: rgba(27, 31, 35, .06); stroke-width: .55; }
+    .level-1-top, .level-1-left, .level-1-right { fill: #9be9a8; }
+    .level-2-top, .level-2-left, .level-2-right { fill: #40c463; }
+    .level-3-top, .level-3-left, .level-3-right { fill: #30a14e; }
+    .level-4-top, .level-4-left, .level-4-right { fill: #216e39; }
+    .level-1-left, .level-2-left, .level-3-left, .level-4-left { filter: url(#brightness-60); }
+    .level-1-right, .level-2-right, .level-3-right, .level-4-right { filter: url(#brightness-20); }
     @media (prefers-color-scheme: dark) {
       .eyebrow, .label, .meta { fill: #8b949e; }
       .heading, .value { fill: #f0f6fc; }
       .rule { stroke: #30363d; }
-      .level-0-top { fill: #161b22; stroke: #30363d; }
     }
   </style>
   <g aria-hidden="true">
