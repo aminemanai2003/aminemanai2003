@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/aminemanai/"><img src="https://img.shields.io/badge/LinkedIn-Amine%20Manai-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:amine.manai@esprit.tn"><img src="https://img.shields.io/badge/Email-amine.manai%40esprit.tn-0F766E?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:amine.manai.tn@gmail.com"><img src="https://img.shields.io/badge/Email-amine.manai.tn%40gmail.com-0F766E?style=flat-square&logo=gmail&logoColor=white" alt="Email Amine Manai" /></a>
   <img src="https://img.shields.io/badge/M1%20internship-April%202027-F59E0B?style=flat-square" alt="Available for an M1 internship from April 2027" />
   <img src="https://img.shields.io/badge/Location-Le%20Mans%2C%20France-1F4E79?style=flat-square&logo=googlemaps&logoColor=white" alt="Le Mans, France" />
 </p>
