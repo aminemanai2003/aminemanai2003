@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Amine Manai — Actuarial Science and Data Science</title>
+  <desc id="desc">A navy and teal banner with Amine Manai's study programme, technical focus and a stylized risk curve.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a2b"/>
+      <stop offset="0.58" stop-color="#0d2e4f"/>
+      <stop offset="1" stop-color="#0f4c5c"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#dbeafe" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="1110" cy="-10" r="170" fill="#2dd4bf" opacity="0.055"/>
+  <circle cx="1040" cy="315" r="205" fill="#60a5fa" opacity="0.045"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="62" y="78" fill="#f8fafc" font-size="46" font-weight="700" letter-spacing="0.4">Amine Manai</text>
+    <rect x="62" y="98" width="82" height="4" rx="2" fill="#2dd4bf"/>
+    <text x="62" y="140" fill="#cbd5e1" font-size="23">M1 Actuarial Science · Le Mans University</text>
+    <text x="62" y="174" fill="#93c5fd" font-size="19">Double degree with ESPRIT Data Science</text>
+
+    <g transform="translate(62 215)" font-size="15" font-weight="600">
+      <rect width="92" height="34" rx="17" fill="#0b2035" stroke="#60a5fa" stroke-opacity="0.7"/>
+      <text x="46" y="22" fill="#dbeafe" text-anchor="middle">Python</text>
+      <rect x="104" width="58" height="34" rx="17" fill="#0b2035" stroke="#2dd4bf" stroke-opacity="0.7"/>
+      <text x="133" y="22" fill="#ccfbf1" text-anchor="middle">R</text>
+      <rect x="174" width="181" height="34" rx="17" fill="#0b2035" stroke="#94a3b8" stroke-opacity="0.65"/>
+      <text x="264.5" y="22" fill="#e2e8f0" text-anchor="middle">Statistical modelling</text>
+      <rect x="367" width="153" height="34" rx="17" fill="#0b2035" stroke="#fbbf24" stroke-opacity="0.65"/>
+      <text x="443.5" y="22" fill="#fef3c7" text-anchor="middle">Actuarial risk</text>
+    </g>
+  </g>
+
+  <g transform="translate(700 42)">
+    <line x1="0" y1="192" x2="430" y2="192" stroke="#94a3b8" stroke-opacity="0.42"/>
+    <line x1="0" y1="18" x2="0" y2="192" stroke="#94a3b8" stroke-opacity="0.42"/>
+    <path d="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34 L 430 192 L 0 192 Z" fill="url(#area)"/>
+    <path d="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34" fill="none" stroke="url(#curve)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+    <g fill="#e0f2fe" stroke="#0d2e4f" stroke-width="3">
+      <circle cx="128" cy="154" r="6"/>
+      <circle cx="231" cy="126" r="6"/>
+      <circle cx="344" cy="91" r="6"/>
+      <circle cx="430" cy="34" r="6"/>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#cbd5e1">
+      <text x="18" y="22">E[L]</text>
+      <text x="340" y="219">exposure</text>
+      <text x="306" y="55" fill="#99f6e4">VaR 99.5%</text>
+      <text x="34" y="220" fill="#93c5fd">aₓ + bₓκₜ</text>
+    </g>
+  </g>
+</svg>
