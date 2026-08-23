@@ -25,38 +25,31 @@
   </defs>
 
   <style>
-    .curve-flow {
-      stroke-dasharray: 10 34;
-      animation: curve-flow 12s linear infinite;
-    }
     .risk-point {
-      animation: point-pulse 12s ease-in-out infinite;
+      animation: point-pulse 4.8s ease-in-out infinite;
       transform-box: fill-box;
       transform-origin: center;
     }
-    .point-2 { animation-delay: 0.7s; }
-    .point-3 { animation-delay: 1.4s; }
-    .point-4 { animation-delay: 2.1s; }
+    .point-2 { animation-delay: 0.6s; }
+    .point-3 { animation-delay: 1.2s; }
+    .point-4 { animation-delay: 1.8s; }
     .notation {
-      animation: notation-breathe 9s ease-in-out infinite;
+      animation: notation-breathe 7s ease-in-out infinite;
     }
-    .notation-2 { animation-delay: -3s; }
-    .notation-3 { animation-delay: -6s; }
+    .notation-2 { animation-delay: -2.3s; }
+    .notation-3 { animation-delay: -4.6s; }
 
-    @keyframes curve-flow {
-      to { stroke-dashoffset: -176; }
-    }
     @keyframes point-pulse {
-      0%, 14%, 100% { opacity: 1; transform: scale(1); }
-      6% { opacity: 1; transform: scale(1.28); }
+      0%, 32%, 100% { opacity: 1; transform: scale(1); }
+      14% { opacity: 1; transform: scale(1.42); }
     }
     @keyframes notation-breathe {
-      0%, 100% { opacity: 0.82; }
+      0%, 100% { opacity: 0.74; }
       50% { opacity: 1; }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .curve-flow { display: none; }
+      .motion-marker { display: none; }
       .risk-point, .notation { animation: none; }
     }
   </style>
@@ -89,7 +82,12 @@
     <line x1="0" y1="18" x2="0" y2="192" stroke="#94a3b8" stroke-opacity="0.42"/>
     <path d="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34 L 430 192 L 0 192 Z" fill="url(#area)"/>
     <path d="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34" fill="none" stroke="url(#curve)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
-    <path class="curve-flow" d="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34" fill="none" stroke="#f8fafc" stroke-opacity="0.42" stroke-width="2" stroke-linecap="round"/>
+    <g class="motion-marker">
+      <circle r="10" fill="#f8fafc" opacity="0.16"/>
+      <circle r="4.5" fill="#f8fafc" filter="url(#glow)"/>
+      <animateMotion dur="7s" repeatCount="indefinite" path="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.9;1" dur="7s" repeatCount="indefinite"/>
+    </g>
     <g fill="#e0f2fe" stroke="#0d2e4f" stroke-width="3">
       <circle class="risk-point point-1" cx="128" cy="154" r="6"/>
       <circle class="risk-point point-2" cx="231" cy="126" r="6"/>
