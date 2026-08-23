@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Amine Manai — Actuarial Science and Data Science</title>
-  <desc id="desc">A navy and teal banner with Amine Manai's study programmes, technical focus and decorative actuarial notation beside a stylized risk curve.</desc>
+  <desc id="desc">A navy and teal banner with Amine Manai's study programmes, technical focus and decorative actuarial notation beside a subtly animated risk curve.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#071a2b"/>
@@ -23,6 +23,43 @@
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#dbeafe" stroke-opacity="0.055" stroke-width="1"/>
     </pattern>
   </defs>
+
+  <style>
+    .curve-flow {
+      stroke-dasharray: 10 34;
+      animation: curve-flow 12s linear infinite;
+    }
+    .risk-point {
+      animation: point-pulse 12s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .point-2 { animation-delay: 0.7s; }
+    .point-3 { animation-delay: 1.4s; }
+    .point-4 { animation-delay: 2.1s; }
+    .notation {
+      animation: notation-breathe 9s ease-in-out infinite;
+    }
+    .notation-2 { animation-delay: -3s; }
+    .notation-3 { animation-delay: -6s; }
+
+    @keyframes curve-flow {
+      to { stroke-dashoffset: -176; }
+    }
+    @keyframes point-pulse {
+      0%, 14%, 100% { opacity: 1; transform: scale(1); }
+      6% { opacity: 1; transform: scale(1.28); }
+    }
+    @keyframes notation-breathe {
+      0%, 100% { opacity: 0.82; }
+      50% { opacity: 1; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .curve-flow { display: none; }
+      .risk-point, .notation { animation: none; }
+    }
+  </style>
 
   <rect width="1200" height="300" rx="24" fill="url(#background)"/>
   <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
@@ -52,22 +89,23 @@
     <line x1="0" y1="18" x2="0" y2="192" stroke="#94a3b8" stroke-opacity="0.42"/>
     <path d="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34 L 430 192 L 0 192 Z" fill="url(#area)"/>
     <path d="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34" fill="none" stroke="url(#curve)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+    <path class="curve-flow" d="M 0 178 C 58 169, 88 151, 128 154 C 170 157, 191 119, 231 126 C 275 134, 301 82, 344 91 C 379 98, 401 46, 430 34" fill="none" stroke="#f8fafc" stroke-opacity="0.42" stroke-width="2" stroke-linecap="round"/>
     <g fill="#e0f2fe" stroke="#0d2e4f" stroke-width="3">
-      <circle cx="128" cy="154" r="6"/>
-      <circle cx="231" cy="126" r="6"/>
-      <circle cx="344" cy="91" r="6"/>
-      <circle cx="430" cy="34" r="6"/>
+      <circle class="risk-point point-1" cx="128" cy="154" r="6"/>
+      <circle class="risk-point point-2" cx="231" cy="126" r="6"/>
+      <circle class="risk-point point-3" cx="344" cy="91" r="6"/>
+      <circle class="risk-point point-4" cx="430" cy="34" r="6"/>
     </g>
     <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">
-      <g transform="translate(18 18)">
+      <g class="notation notation-1" transform="translate(18 18)">
         <rect width="66" height="30" rx="15" fill="#0b2035" stroke="#93c5fd" stroke-opacity="0.38"/>
         <text x="33" y="20" fill="#dbeafe" text-anchor="middle">E[L]</text>
       </g>
-      <g transform="translate(276 4)">
+      <g class="notation notation-2" transform="translate(276 4)">
         <rect width="116" height="30" rx="15" fill="#0b2035" stroke="#2dd4bf" stroke-opacity="0.42"/>
         <text x="58" y="20" fill="#99f6e4" text-anchor="middle">VaR 99.5%</text>
       </g>
-      <g transform="translate(24 208)">
+      <g class="notation notation-3" transform="translate(24 208)">
         <rect width="126" height="30" rx="15" fill="#0b2035" stroke="#60a5fa" stroke-opacity="0.38"/>
         <text x="63" y="20" fill="#bfdbfe" text-anchor="middle">aₓ + bₓκₜ</text>
       </g>
